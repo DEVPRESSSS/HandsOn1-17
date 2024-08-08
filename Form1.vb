@@ -13,7 +13,11 @@ Public Class Form1
         Dim index As Integer = ListBox1.SelectedIndex
 
         If index <> -1 Then
+
+
+            Dim value As String = ListBox1.Items(index).ToString()
             ListBox1.Items.RemoveAt(index)
+            ListBox2.Items.Add(value)
         End If
 
 
