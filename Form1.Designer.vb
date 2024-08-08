@@ -44,6 +44,7 @@ Partial Class Form1
         ' 
         ListBox1.FormattingEnabled = True
         ListBox1.ItemHeight = 25
+        ListBox1.Items.AddRange(New Object() {"hey", "heys", "heyss"})
         ListBox1.Location = New Point(265, 175)
         ListBox1.Name = "ListBox1"
         ListBox1.Size = New Size(198, 154)

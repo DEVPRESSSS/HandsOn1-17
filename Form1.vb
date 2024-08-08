@@ -8,12 +8,14 @@ Public Class Form1
 
     Private Sub EnterText()
 
-        ListBox1.Items.Clear()
-        Dim input As String = TextBox1.Text
 
 
-        ListBox1.Items.Add(input)
-        TextBox1.Clear()
+        Dim index As Integer = ListBox1.SelectedIndex
+
+        If index <> -1 Then
+            ListBox1.Items.RemoveAt(index)
+        End If
+
 
 
 
