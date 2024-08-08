@@ -1,15 +1,21 @@
 ﻿
 Public Class Form1
-    Private Sub MultiplicationOf3()
 
-        For i As Integer = 1 To 8
 
-            Dim result As Integer = i * 3
-            ListBox1.Items.Add(result)
-        Next
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        EnterText()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        MultiplicationOf3()
+    Private Sub EnterText()
+
+        ListBox1.Items.Clear()
+        Dim input As String = TextBox1.Text
+
+
+        ListBox1.Items.Add(input)
+        TextBox1.Clear()
+
+
+
     End Sub
 End Class
