@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Panel1 = New Panel()
         Button1 = New Button()
-        ListBox2 = New ListBox()
         ListBox1 = New ListBox()
         Panel1.SuspendLayout()
         SuspendLayout()
@@ -32,7 +31,6 @@ Partial Class Form1
         ' Panel1
         ' 
         Panel1.Controls.Add(Button1)
-        Panel1.Controls.Add(ListBox2)
         Panel1.Controls.Add(ListBox1)
         Panel1.Dock = DockStyle.Fill
         Panel1.Location = New Point(0, 0)
@@ -42,35 +40,25 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(178, 66)
+        Button1.Location = New Point(246, 66)
         Button1.Name = "Button1"
         Button1.Size = New Size(112, 34)
         Button1.TabIndex = 2
         Button1.Text = "Run"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' ListBox2
-        ' 
-        ListBox2.FormattingEnabled = True
-        ListBox2.ItemHeight = 25
-        ListBox2.Location = New Point(408, 106)
-        ListBox2.Name = "ListBox2"
-        ListBox2.Size = New Size(192, 229)
-        ListBox2.TabIndex = 1
-        ' 
         ' ListBox1
         ' 
         ListBox1.FormattingEnabled = True
         ListBox1.ItemHeight = 25
-        ListBox1.Items.AddRange(New Object() {"5", "4", "3", "2", "1"})
-        ListBox1.Location = New Point(178, 106)
+        ListBox1.Location = New Point(246, 106)
         ListBox1.Name = "ListBox1"
         ListBox1.Size = New Size(192, 229)
         ListBox1.TabIndex = 0
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(Panel1)
@@ -82,7 +70,6 @@ Partial Class Form1
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
-    Friend WithEvents ListBox2 As ListBox
     Friend WithEvents ListBox1 As ListBox
 
 End Class
