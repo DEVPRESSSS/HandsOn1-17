@@ -45,11 +45,11 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(289, 191)
+        Label2.Location = New Point(240, 194)
         Label2.Name = "Label2"
-        Label2.Size = New Size(60, 25)
+        Label2.Size = New Size(97, 25)
         Label2.TabIndex = 3
-        Label2.Text = "Effect:"
+        Label2.Text = "Equivalent:"
         ' 
         ' TextBox2
         ' 
@@ -61,11 +61,11 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(240, 142)
+        Label1.Location = New Point(270, 139)
         Label1.Name = "Label1"
-        Label1.Size = New Size(102, 25)
+        Label1.Size = New Size(63, 25)
         Label1.TabIndex = 1
-        Label1.Text = "Magnitude:"
+        Label1.Text = "Grade:"
         ' 
         ' TextBox1
         ' 
