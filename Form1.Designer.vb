@@ -23,9 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Panel1 = New Panel()
-        ListBox1 = New ListBox()
-        ListBox2 = New ListBox()
         Button1 = New Button()
+        ListBox2 = New ListBox()
+        ListBox1 = New ListBox()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -40,15 +40,14 @@ Partial Class Form1
         Panel1.Size = New Size(800, 450)
         Panel1.TabIndex = 0
         ' 
-        ' ListBox1
+        ' Button1
         ' 
-        ListBox1.FormattingEnabled = True
-        ListBox1.ItemHeight = 25
-        ListBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5"})
-        ListBox1.Location = New Point(178, 106)
-        ListBox1.Name = "ListBox1"
-        ListBox1.Size = New Size(192, 229)
-        ListBox1.TabIndex = 0
+        Button1.Location = New Point(178, 66)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(112, 34)
+        Button1.TabIndex = 2
+        Button1.Text = "Run"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' ListBox2
         ' 
@@ -59,14 +58,15 @@ Partial Class Form1
         ListBox2.Size = New Size(192, 229)
         ListBox2.TabIndex = 1
         ' 
-        ' Button1
+        ' ListBox1
         ' 
-        Button1.Location = New Point(178, 66)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(112, 34)
-        Button1.TabIndex = 2
-        Button1.Text = "Run"
-        Button1.UseVisualStyleBackColor = True
+        ListBox1.FormattingEnabled = True
+        ListBox1.ItemHeight = 25
+        ListBox1.Items.AddRange(New Object() {"5", "4", "3", "2", "1"})
+        ListBox1.Location = New Point(178, 106)
+        ListBox1.Name = "ListBox1"
+        ListBox1.Size = New Size(192, 229)
+        ListBox1.TabIndex = 0
         ' 
         ' Form1
         ' 
